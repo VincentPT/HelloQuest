@@ -1,32 +1,8 @@
-# Prerequisites
-*.d
+# Ignore caches files
+DerivedDataCache
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore temporary files
+Intermediate
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore log files
+Saved/logs
