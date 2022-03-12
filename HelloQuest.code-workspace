@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "HelloQuest",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "D:\\Development\\UnrealEngine-4.27_Quest"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HelloQuest (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuest Win64 Debug Build",
+			"program": "D:\\Development\\Projects\\HelloQuest\\Binaries\\Win64\\HelloQuest-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuest (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuest Win64 DebugGame Build",
+			"program": "D:\\Development\\Projects\\HelloQuest\\Binaries\\Win64\\HelloQuest-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuest (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuest Win64 Development Build",
+			"program": "D:\\Development\\Projects\\HelloQuest\\Binaries\\Win64\\HelloQuest.exe",
+			"args": [
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuest (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuest Win64 Shipping Build",
+			"program": "D:\\Development\\Projects\\HelloQuest\\Binaries\\Win64\\HelloQuest-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuest (Test)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuest Win64 Test Build",
+			"program": "D:\\Development\\Projects\\HelloQuest\\Binaries\\Win64\\HelloQuest-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuestEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuestEditor Win64 Debug Build",
+			"program": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject"
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuestEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuestEditor Win64 DebugGame Build",
+			"program": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject"
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloQuestEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloQuestEditor Win64 Development Build",
+			"program": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject"
+			],
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+		}
+	]
+}

@@ -1,0 +1,1679 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HelloQuest Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win32",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Win64",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"HoloLens",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Mac Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Mac",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Shipping",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuest Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuest Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuest",
+				"Android",
+				"Test",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Win64",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Debug",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"DebugGame",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloQuestEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		},
+		{
+			"label": "HelloQuestEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloQuestEditor",
+				"Mac",
+				"Development",
+				"D:\\Development\\Projects\\HelloQuest\\HelloQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Development\\UnrealEngine-4.27_Quest"
+			}
+		}
+	]
+}

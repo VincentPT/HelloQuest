@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "HelloQuestEditor Editor Win64 Development (HelloQuest)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_HelloQuest.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

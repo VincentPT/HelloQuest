@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\\\Development\\\\Projects\\\\HelloQuest\\\\Source\\\\HelloQuest\\\\HelloQuest.Build.cs",
+		"command": "cl.exe @\"D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default\\HelloQuest.211.rsp\"",
+		"directory": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Development\\\\Projects\\\\HelloQuest\\\\Source\\\\HelloQuest\\\\HelloQuest.cpp",
+		"command": "cl.exe @\"D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default\\HelloQuest.211.rsp\"",
+		"directory": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Development\\\\Projects\\\\HelloQuest\\\\Source\\\\HelloQuest\\\\HelloQuest.h",
+		"command": "cl.exe @\"D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default\\HelloQuest.211.rsp\"",
+		"directory": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Development\\\\Projects\\\\HelloQuest\\\\Source\\\\HelloQuest\\\\MyClass.cpp",
+		"command": "cl.exe @\"D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default\\HelloQuest.211.rsp\"",
+		"directory": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Development\\\\Projects\\\\HelloQuest\\\\Source\\\\HelloQuest\\\\MyClass.h",
+		"command": "cl.exe @\"D:\\Development\\Projects\\HelloQuest\\.vscode\\compileCommands_Default\\HelloQuest.211.rsp\"",
+		"directory": "D:\\Development\\UnrealEngine-4.27_Quest\\Engine\\Source"
+	}
+]

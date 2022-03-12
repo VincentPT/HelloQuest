@@ -4,5 +4,11 @@ DerivedDataCache
 # Ignore temporary files
 Intermediate
 
-# Ignore log files
-Saved/logs
+# Ignore auto saved files
+Saved
+
+# Ignore Compiled files
+Binaries
+
+# Ignore Packages folder
+Packages
